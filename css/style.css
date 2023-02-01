@@ -13,6 +13,27 @@ body{
 
 .container{
     display: flex;
+    background-color: white;
+    width: 600px;
+    border-radius: 16px;
+}
+
+.img-wrapper{
+    display: flex;
+}
+
+
+.img-wrapper img{
+    width: 300px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px; 
+}
+
+.content{
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .content h2{
@@ -21,7 +42,7 @@ body{
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: medium;
+    font-size:smaller;
 }
 
 .content h1{
@@ -34,16 +55,19 @@ body{
     color: hsl(228, 12%, 48%);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
 }
 
 .prices {
     align-items: center;
     display: flex;
+    column-gap: 20px;
 }
 
 .prices span{
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
+    font-size: 36px;
 }
 
 .prices small{
@@ -58,5 +82,12 @@ button{
     border-radius: 12px;
     color: hsl(0, 0%, 100%);
     font-family: 'Montserrat', sans-serif;
+    padding: 14px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
 }
+
+
 
